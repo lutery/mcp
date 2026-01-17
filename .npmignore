@@ -1,0 +1,32 @@
+# Source code
+src/
+*.ts
+tsconfig.json
+
+# Tests
+test/
+*.test.js
+*.test.mjs
+
+# Documentation
+doc/
+*.md
+!README.md
+
+# Environment
+.env
+.env.*
+.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Other
+node_modules/
+.git/
+.gitignore
+.npmignore
+*.bat
+nul
