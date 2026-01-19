@@ -1,6 +1,6 @@
 {
   "name": "@lutery/vision-mcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP Server providing vision capabilities for LLMs via GLM-4.6V, SiliconFlow, and ModelScope",
   "type": "module",
   "bin": {
@@ -17,6 +17,10 @@
     "test:unit": "npm run build && node test/thinking-filter.test.js && node test/data-url-parser.test.js && node test/thinking-extractors.test.js && node test/claude-adapter.test.js && node test/gemini-adapter.test.js && node test/logger-sanitization.test.js",
     "test:smoke": "node test/smoke-glm-adapter.mjs",
     "test:integration": "npm run build && node -r dotenv/config test/simple-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lutery/mcp.git"
   },
   "keywords": [
     "mcp",
